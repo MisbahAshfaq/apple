@@ -3,14 +3,24 @@
     padding: 0px;
 }
 
-.header{
+.header {
     position: fixed;
-    border: 1px solid white;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: white;
-    z-index: 1;
+    border: none;
+    z-index: 9999;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
 }
 
-.links{
+.links {
+    display: flex;
+    gap: 30px;
     background-color: white;
 }
 
@@ -433,15 +443,15 @@
 }
 
 .gradient-2{
-     font-size: 20px;
+     font-size: 15px;
     font-weight: bold;
     background: linear-gradient(90deg, #2d88f8, rgb(153, 18, 153) ,#a043e8, rgb(232, 72, 72)  ,#ff5e3a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 50px;
     position: absolute;
-    top: 1365px;
-    left: 630px;
+    top: 2190px;
+    left: 290px;
 }
 
 .AI-paras{
@@ -469,18 +479,42 @@
 
 .button-7{
     border: 1px solid rgb(220, 222, 227);
-    border-radius: 40px;
-    background-color: rgb(200, 204, 211);
+    border-radius: 30px;
+    background-color: white;
     color: grey;
-    margin: 300px;
+    margin: 400px;
     position: absolute;
-    top: 2190px;
-    left: 1009px ;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
+    top: 1838px;
+    left: 590px ;
+    padding-left: 35px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.button-8{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    margin: 400px;
+    position: absolute;
+    top: 1838px;
+    left: 750px ;
+    padding-left: 35px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
 }
 
 .big-image{
@@ -510,4 +544,254 @@
     position: absolute;
     top: 4180px;
     left: 1300px;
+}
+
+.airpods-paras{
+   position: absolute;
+   top: 2750px;
+   left: 220px;
+   color: white;
+}
+
+.airpods-paras1{
+    position: absolute;
+    top: 2800px;
+    left: 200px;
+    color: white;
+    font-size: 25px;
+}
+
+.button-9{
+    border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: rgb(62, 119, 241);
+    color: white;
+    margin: 300px;
+    position: absolute;
+    top: 2545px;
+    left: -37px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+     white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.button-10{
+    border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: transparent;
+    color: rgb(74, 130, 252);
+    margin: 300px;
+    position: absolute;
+    top: 2545px;
+    left: 130px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+      white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.watch-paras{
+     position: absolute;
+   top: 2350px;
+   right: 190px;
+   color: black;
+}
+
+.watch-paras1{
+    position: absolute;
+    top: 2410px;
+    left: 1000px;
+    color: black;
+    font-size: 27px;
+}
+
+.watch-paras2{
+    position: absolute;
+    top: 2445px;
+    left: 900px;
+    color: black;
+    font-size: 27px;
+}
+
+.button-11{
+    border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: rgb(62, 119, 241);
+    color: white;
+    margin: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 700px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+     white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+} 
+
+.button-12{
+    border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: transparent;
+    color: rgb(74, 130, 252);
+    margin: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 860px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.trade-in{
+    position: absolute;
+   top: 2970px;
+   left: 260px;
+   color: black;
+}
+
+.trade-paras1{
+   position: absolute;
+   top: 3020px;
+   left: 170px;
+   color: black;
+   font-size: 26px;
+}
+
+.trade-paras2{
+    position: absolute;
+   top: 3050px;
+   left: 180px;
+   color: black;
+   font-size: 26px;
+}
+.button-13{
+    border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: rgb(74, 130, 252);
+    color: white;
+    margin: 300px;
+    position: absolute;
+    top: 2800px;
+    left: -38px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.apple-card{
+   position: absolute;
+   top: 2970px;
+   right: 290px;
+   color: black;
+}
+
+.apple-card1{
+     position: absolute;
+   top: 3040px;
+   right: 200px;
+   color: black;
+   font-size: 26px;
+}
+
+.apple-card2{
+ position: absolute;
+   top: 3070px;
+   right: 240px;
+   color: black;
+   font-size: 26px;
+}
+
+.button-14{
+     border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: rgb(74, 130, 252);
+    color: white;
+    margin: 300px;
+    position: absolute;
+    top: 2820px;
+    right: 80px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.button-15{
+    border: 1px solid rgb(74, 130, 252);
+    border-radius: 40px;
+    background-color: transparent;
+    color: rgb(74, 130, 252) ;
+    margin: 300px;
+    position: absolute;
+    top: 2820px;
+    right: -66px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.gradient-3{
+     font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #2d88f8, rgb(153, 18, 153) ,#a043e8, rgb(232, 72, 72)  ,#ff5e3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+    position: absolute;
+    top: 2820px;
+    right: 278px ;
+}
+
+.text{
+    border: 1px solid rgb(255, 247, 247);
+    text-align: center;
+    background-color: rgb(255, 247, 247);
+    color: rgb(109, 106, 106);
+    position: absolute;
+    top: 4500px;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-basis: 100%;
+    font-size: small;
 }
